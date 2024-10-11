@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+
+}
+#nav1{
+    width: 50%;
+    
+   
+}
+#nav2{
+    width: 50%;
+ 
+  
+    display: inline;
+    
+    
+}
+li{
+    display: inline;
+
+    margin-right: 25px;
+    color: grey;
+
+}
+#logo{
+    width:140px;
+    margin-top: 15px;
+    margin-left: 200px;
+
+}
+h1{
+    font-size:34px;
+    text-align: center;
+}
+h2{
+    font-size:25px;
+    text-align: center;
+}
+#menu{
+    height: 22px;
+    
+}
+#img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#gg{
+    margin-left: 200px;
+}
+#host{
+    display: flex;
+    align-content: center;
+    
+}
+#but{
+    text-align: center;
+}
+button{
+    font-size:large;
+    padding: 5px 15px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(30, 106, 230);
+    border: 0;
+    border-radius: 2px;
+
+}
