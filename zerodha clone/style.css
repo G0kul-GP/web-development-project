@@ -1,12 +1,13 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 #navbar{
-    width: 100%;
+    max-width: 1700px;
     display: flex;
-    flex-direction: row;
-    margin-bottom: 0;
+    margin: 0 auto;
 
 }
 #nav1{
@@ -36,12 +37,16 @@ li{
 
 }
 h1{
-    font-size:34px;
+    font-size: 2.75rem;
+    line-height: 1.25;
     text-align: center;
+    font-weight: 500;
 }
 h2{
-    font-size:25px;
+    font-size: 1.25rem;
+    line-height: 1.8;
     text-align: center;
+    font-weight: 500;
 }
 #menu{
     height: 22px;
@@ -58,8 +63,9 @@ h2{
     margin-left: 200px;
 }
 #host{
-    display: flex;
-    align-content: center;
+    max-width: 1200px;
+    
+    margin: 0 auto;
     
 }
 #but{
